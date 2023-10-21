@@ -2,7 +2,7 @@ import React from 'react';
 
 function Cover() {
     return (
-        <div className="container">
+        <div className="coverContainer">
             <h1>Cover</h1>
         </div>
     )
