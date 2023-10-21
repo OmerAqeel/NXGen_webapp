@@ -1,10 +1,12 @@
 import React from 'react';
+import './OurVision.css';
 
 function OurVision() {
     
         return (
-            <div className="container">
-                <h1>Our Vision</h1>
+            <div className="ourVisionContainer">
+                <h1 className='visionTitle'>Our Vision</h1>
+
             </div>
         )
     }

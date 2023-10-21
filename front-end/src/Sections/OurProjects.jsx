@@ -4,8 +4,8 @@ import './OurProjects.css';
 function OurProjects() {
 
     return (
-        <div className="container">
-            <h1>Our Projects</h1>
+        <div className="projectsContainer">
+            <h1 className='ourProjectsTitle'>Our Projects</h1>
         </div>
     )
 }

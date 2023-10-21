@@ -3,7 +3,7 @@ import React from 'react';
 function OurTeam() {
     
         return (
-            <div className="container">
+            <div className="ourTeamContainer">
                 <h1>Our Team</h1>
             </div>
         )
