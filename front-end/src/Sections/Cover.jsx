@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import './Cover.css';
 import OurVision from './OurVision';
-
+import OurProjects from './OurProjects';
 function Cover() {
     return (
         <>
@@ -10,6 +10,7 @@ function Cover() {
         <Navbar/>
             <h1>Cover</h1>
             <OurVision/>
+            <OurProjects/>
         </div>
         
         </>
