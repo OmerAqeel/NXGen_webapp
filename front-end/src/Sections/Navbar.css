@@ -1,0 +1,30 @@
+.navbarContainer{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    //background-color: rgba(30, 30, 30, 1);
+    backdrop-filter: blur(100px); /* Adjust the blur radius as needed */
+    z-index: -1;
+}
+
+.navbarContainer li{
+    color: white;
+    display: inline-block;
+    margin: 0 55px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    -webkit-text-stroke: 0.15px black;
+    text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5);
+    cursor: pointer;
+}
+
+.navbarContainer li:hover{
+    color: rgba(20, 171, 173, 1);
+    text-shadow: white;
+    transform: scale(1.05);
+    transition: 0.3s;
+    -webkit-text-stroke: 0.15px black;
+    border-color: rgba(20, 171, 173, 1);
+}

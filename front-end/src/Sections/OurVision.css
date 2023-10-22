@@ -5,6 +5,7 @@
 .visionTitle{
     font-family: 'Bebas Neue', sans-serif;
     color:white;
-    -webkit-text-stroke: 0.15px black; /* Add a black stroke to the text */
+    font-size: 30px;
+    -webkit-text-stroke : 0.15px black; /* Add a black stroke to the text */
     text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5); /* Add a shadow with a color and blur */
 }
