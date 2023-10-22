@@ -1,10 +1,32 @@
-.projectsContainer{
-    background-image: url("https://i.imgur.com/WlGCcQ8.jpg");
+.projectsContainer {
+    background-image: url("https://media.tenor.com/5K5_SlXFOAwAAAAC/slowly-moving.gif");
+    height: 80vh;
 }
-.ourProjectsTitle{
+
+.ourProjectsTitle {
     color: white;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
-    -webkit-text-stroke: 0.15px black; /* Add a black stroke to the text */
-    text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5); /* Add a shadow with a color and blur */
+    -webkit-text-stroke: 0.15px black;
+    text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5);
+}
+
+.ourProjectMainText {
+    color: white;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.mainTextContainer {
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .mainTextContainer {
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
 }

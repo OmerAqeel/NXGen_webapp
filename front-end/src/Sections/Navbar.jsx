@@ -1,11 +1,23 @@
 import React from 'react';
+import './Navbar.css';
 
 function Navbar() {
     
         return (
             <div className="navbarContainer">
-                <h1>Navbar</h1>
-            </div>
+                <li>
+                    OUR VISON
+                </li>
+                <li>
+                    SERVICES
+                </li>
+                <li>
+                    OUR TEAM
+                </li>
+                <li>
+                    CONTACT US
+                </li>
+                </div>
         )
     }   
 
