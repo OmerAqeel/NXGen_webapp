@@ -13,7 +13,8 @@
 
 .ourProjectMainText {
     color: white;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
     font-size: 15px;
     text-align: justify;
 }
@@ -23,10 +24,50 @@
     margin-right: 15vh;
 }
 
+.offerText{
+    color:rgba(20, 171, 173, 0.5);
+}
+
+.serviceTitle{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    -webkit-text-stroke: 0.15px black;
+    text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5);
+}
+
+.service{
+    position: relative;
+    top:5%;
+    right:30%;
+    background-color: rgba(30, 30, 30, 1);
+    text-align: center;
+    width: 35%;
+    transform: translate(95%, 15%);
+    cursor: pointer;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(20, 171, 173, 0.5);
+}
+
+.service:hover{
+    scale: 1.02;
+    transition: 0.3s;
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
     .mainTextContainer {
         margin-left: 5vh;
         margin-right: 5vh;
+    }
+
+    .service{
+        position: relative;
+        top:5%;
+        left:-40%;
+        width: 50%;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
