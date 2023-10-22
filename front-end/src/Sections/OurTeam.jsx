@@ -4,7 +4,7 @@ function OurTeam() {
     
         return (
             <div className="ourTeamContainer">
-                <h1>Our Team</h1>
+                <h1>Our <span className='teamText'>Team</span></h1>
             </div>
         )
     }
