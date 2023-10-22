@@ -9,7 +9,7 @@ function Cover() {
         <div className="coverContainer">
         <Navbar/>
             <h1>Cover</h1>
-            <OurVision/>
+            <OurVision/>   
             <OurProjects/>
         </div>
         
