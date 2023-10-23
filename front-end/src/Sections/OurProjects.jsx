@@ -3,6 +3,25 @@ import './OurProjects.css';
 
 function OurProjects() {
 
+    const services = [
+        {
+            title: 'Web Development',
+            image: 'https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif'
+        },
+        {
+            title: 'UI/UX Design',
+            image: 'https://cdn.dribbble.com/users/795597/screenshots/5885477/media/edb340bba09d20e95bec4b30d9e2d174.gif'
+        },
+        {
+            title: 'Support & Maintenance',
+            image: 'https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif'
+        },
+        {
+            title : 'Photo and Video Editing',
+            image: 'https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif'
+        }
+    ]
+
 
     return (
         <div className="projectsContainer">
@@ -13,9 +32,13 @@ function OurProjects() {
                 </p>
             </div>
 
-            <div className='service'>
-                <h1 className='serviceTitle'>Web Development</h1>
-                <img className='serviceImage' src='https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif' alt='web-dev' height={150} width={150}/>
+            <div className='servicesContainer'>
+                {services.map((service, index) => (
+                    <div className='service' key={index}>
+                         <h3 className='serviceTitle'>{service.title}</h3>
+                        <img src={service.image} alt='service' className='serviceImage' height={100} width={150}  />
+                    </div>
+                ))}
             </div>
 
         </div>
