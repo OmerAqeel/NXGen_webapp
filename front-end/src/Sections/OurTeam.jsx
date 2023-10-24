@@ -1,10 +1,11 @@
 import React from 'react';
+import "./OurTeam.css"
 
 function OurTeam() {
     
         return (
             <div className="ourTeamContainer">
-                <h1>Our <span className='teamText'>Team</span></h1>
+                <h1 className='ourTeamTitle'>Our <span className='ourTeamText'>Team</span></h1>
             </div>
         )
     }
