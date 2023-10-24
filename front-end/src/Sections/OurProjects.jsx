@@ -14,11 +14,11 @@ function OurProjects() {
         },
         {
             title: 'Support & Maintenance',
-            image: 'https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif'
+            image: 'https://infologia.in/Template/assets/img/infologia/webhosting.gif.gif'
         },
         {
             title : 'Photo and Video Editing',
-            image: 'https://cdn.dribbble.com/users/2521371/screenshots/5348468/media/888df4f0bca2d55f78b4a2db4026d89f.gif'
+            image: 'https://images.squarespace-cdn.com/content/v1/57ebf869d1758ef9c9125f4e/1553039377863-IQQB1NNOMPEWNM3W2UI4/gif+1.gif?format=2500w'
         }
     ]
 
