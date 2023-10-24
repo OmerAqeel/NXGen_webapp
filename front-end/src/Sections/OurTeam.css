@@ -1,0 +1,24 @@
+.ourTeamTitle {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: 0.15px black;
+    text-shadow: 2px 2px 4px rgba(20, 171, 173, 0.5);
+}
+
+.ourTeamText{
+    color:rgba(20, 171, 173, 0.5);
+}
+
+.ourTeamMainText {
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.ourTeamContainer{
+    background-color:rgba(30, 30, 30, 1);
+    height:80vh;
+}
