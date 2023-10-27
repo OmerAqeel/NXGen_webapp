@@ -36,7 +36,7 @@ function OurProjects() {
                 {services.map((service, index) => (
                     <div className='service' key={index}>
                          <h3 className='serviceTitle'>{service.title}</h3>
-                        <img src={service.image} alt='service' className='serviceImage' height={100} width={150}  />
+                        <img src={service.image} alt='service' className='serviceImage' height={100} width={190}  />
                     </div>
                 ))}
             </div>
