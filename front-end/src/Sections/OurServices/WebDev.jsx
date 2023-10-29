@@ -1,8 +1,7 @@
 import React from "react";
 import "./WebDev.css";
 
-
-const WebDev = ({ isOpen, onClose}) => {
+const WebDev = ({ isOpen, onClose, title, content }) => {
   if (!isOpen) {
     return null;
   }
@@ -10,9 +9,13 @@ const WebDev = ({ isOpen, onClose}) => {
   return (
     <div className="modal-overlay">
       <div className="modal">
-        <button className="close-button" onClick={onClose}>X</button>
-        <h1 className="title">Web Development</h1> 
-        <p></p>
+        <button className="close-button" onClick={onClose}>
+          X
+        </button>
+        <h1 className="title">{title}</h1>
+        <div className="content">
+          {content}
+        </div>
       </div>
     </div>
   );

@@ -70,7 +70,7 @@ function OurProjects() {
           </div>
         ))}
       </div>
-      {isWebDevModalOpen && <WebDev isOpen={isWebDevModalOpen} onClose={closeWebDevModal} />}
+      {isWebDevModalOpen && <WebDev isOpen={isWebDevModalOpen} onClose={closeWebDevModal}/>}
     </div>
   );
 }
