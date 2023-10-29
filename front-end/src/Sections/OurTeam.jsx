@@ -4,7 +4,7 @@ import "./OurTeam.css"
 function OurTeam() {
     
         return (
-            <div className="ourTeamContainer">
+            <div className="ourTeamContainer" id='section3'>
                 <h1 className='ourTeamTitle'>Our <span className='ourTeamText'>Team</span></h1>
             </div>
         )

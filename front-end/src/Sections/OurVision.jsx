@@ -4,7 +4,7 @@ import './OurVision.css';
 function OurVision() {
 
     return (
-        <div className="ourVisionContainer">
+        <div className="ourVisionContainer" id='section1'>
             <div className='titleContainer'>
                 <h1 className='visionTitle'>Our <span className='visionText'>Vision</span></h1>
             </div>
