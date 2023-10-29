@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "front-end/public/index.html",
+        "use": "@vercel/static-build",
+        "config": {
+          "outputDirectory": "public"
+        }
+      }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/public/(.*)" , "destination": "/public/$1" },
+      { "src": "/*", "destination": "/front-end/public/index.html" }
+    ]
+  }
